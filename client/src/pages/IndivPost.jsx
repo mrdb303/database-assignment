@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, useParams, useSearchParams} from "react-r
 
 export default function IndivPost(){
 
-  const servUrl = 'http://localhost:8080';
+  const servUrl = 'https://db-database-app-server.onrender.com';
 
   const { post } = useParams();
 

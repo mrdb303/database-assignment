@@ -28,9 +28,9 @@ export default function App() {
   });
 
 
-  const isServUrlLocal = true;
+  const isServUrlLocal = false;
   let servUrl = '';
-  servUrl = (isServUrlLocal)? 'http://localhost:8080':'https://db-assignment-forum-serv.onrender.com';
+  servUrl = (isServUrlLocal)? 'http://localhost:8080':'https://db-database-app-server.onrender.com';
 
   //const page="home";
 

@@ -59,7 +59,7 @@ export default function ListPosts({servUrl, dataFromDb,
           />
           
           <br/><br/>
-          <button key={"btn"+postInstance.id} value={postInstance.id} ><a className="btn" href={"http://127.0.0.1:5173/indivpost/" + postInstance.id}>View</a></button>
+          <button key={"btn"+postInstance.id} value={postInstance.id} ><a className="btn" href={"https://db-database-app-client.onrender.com/indivpost/" + postInstance.id}>View</a></button>
           </form>
         </section>)}
       </>
