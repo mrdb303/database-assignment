@@ -6,7 +6,7 @@ import pg from "pg";
 
 dotenv.config(); // allow us to use the environment variables (like the DATABASE_URL)
 
-const PORT = 8080;
+const PORT = 10000;
 const app = express();
 app.use(cors());
 
