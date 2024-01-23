@@ -1,5 +1,5 @@
 # Tech Educators Bootcamp Week 07 Assignment
-============================================
+
 
 ## Build a database driven React app
 ------------------------------------
@@ -62,7 +62,7 @@ I had a second attempt at the project, but struggled to implement the page routi
 
 Running out of time, I pushed it to GitHub. The Render service created the server properly, but couldn't finish deploying it. No errors were given and I even gave it an hour to finish and cleared out the database cache. I found out that it was not allowing the port of 8080 for the server, which had been used successfully on previous projects. Having gone through the documentation on Render, which stated that the recommended port is 10000. This fixed that issue.
 Then later on the Monday I discovered another problem in that the service was far more fussy about 'Link' being used than the local setup was, which means it is not opening the component is not connecting for the single post instance and therefore won't even pull through the post id.
-
+<br>
 
 ### Requirements achieved
 
@@ -85,5 +85,5 @@ Then later on the Monday I discovered another problem in that the service was fa
 - Create a page where users can create new posts using a form
 <br>
 
-This was uploaded after the deadline.
+This Readme file was uploaded after the deadline.
 The only other changes made after the deadline was a fix to the package.json file, due to the server having issues with deployment due to port number.
