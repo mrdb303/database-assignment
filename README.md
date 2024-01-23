@@ -92,8 +92,6 @@ Then later on the Monday I discovered another problem in that the service was fa
 
 
 [https://db-database-app-client.onrender.com](https://db-database-app-client.onrender.com)<br>
-[https://db-database-app-client.onrender.com/listposts](https://db-database-app-client.onrender.com/listposts)<br>
-
 
 
 This Readme file was uploaded after the deadline.
